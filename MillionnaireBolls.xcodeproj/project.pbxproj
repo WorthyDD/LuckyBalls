@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCEC313721D86EEF004F9396 /* UIView+IBSpectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC313621D86EEF004F9396 /* UIView+IBSpectable.swift */; };
+		CCEC313921D8724D004F9396 /* BallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC313821D8724D004F9396 /* BallCell.swift */; };
+		CCEC313C21D87936004F9396 /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEC313A21D87936004F9396 /* LabViewController.swift */; };
+		CCEC313D21D87936004F9396 /* LabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEC313B21D87936004F9396 /* LabViewController.xib */; };
 		CCEE875421D6572D00CC8A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE875321D6572D00CC8A76 /* AppDelegate.swift */; };
 		CCEE875621D6572D00CC8A76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE875521D6572D00CC8A76 /* ViewController.swift */; };
 		CCEE875921D6572D00CC8A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEE875721D6572D00CC8A76 /* Main.storyboard */; };
 		CCEE875B21D6572F00CC8A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEE875A21D6572F00CC8A76 /* Assets.xcassets */; };
 		CCEE875E21D6572F00CC8A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEE875C21D6572F00CC8A76 /* LaunchScreen.storyboard */; };
+		CCEE876621D6576900CC8A76 /* RandomBollsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE876521D6576900CC8A76 /* RandomBollsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCEC313621D86EEF004F9396 /* UIView+IBSpectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBSpectable.swift"; sourceTree = "<group>"; };
+		CCEC313821D8724D004F9396 /* BallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallCell.swift; sourceTree = "<group>"; };
+		CCEC313A21D87936004F9396 /* LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
+		CCEC313B21D87936004F9396 /* LabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabViewController.xib; sourceTree = "<group>"; };
 		CCEE875021D6572D00CC8A76 /* MillionnaireBolls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillionnaireBolls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEE875321D6572D00CC8A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCEE875521D6572D00CC8A76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		CCEE875A21D6572F00CC8A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCEE875D21D6572F00CC8A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCEE875F21D6572F00CC8A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEE876521D6576900CC8A76 /* RandomBollsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBollsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		CCEE875221D6572D00CC8A76 /* MillionnaireBolls */ = {
 			isa = PBXGroup;
 			children = (
+				CCEC313621D86EEF004F9396 /* UIView+IBSpectable.swift */,
+				CCEC313821D8724D004F9396 /* BallCell.swift */,
+				CCEE876521D6576900CC8A76 /* RandomBollsManager.swift */,
 				CCEE875321D6572D00CC8A76 /* AppDelegate.swift */,
 				CCEE875521D6572D00CC8A76 /* ViewController.swift */,
+				CCEC313A21D87936004F9396 /* LabViewController.swift */,
+				CCEC313B21D87936004F9396 /* LabViewController.xib */,
 				CCEE875721D6572D00CC8A76 /* Main.storyboard */,
 				CCEE875A21D6572F00CC8A76 /* Assets.xcassets */,
 				CCEE875C21D6572F00CC8A76 /* LaunchScreen.storyboard */,
@@ -122,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEC313D21D87936004F9396 /* LabViewController.xib in Resources */,
 				CCEE875E21D6572F00CC8A76 /* LaunchScreen.storyboard in Resources */,
 				CCEE875B21D6572F00CC8A76 /* Assets.xcassets in Resources */,
 				CCEE875921D6572D00CC8A76 /* Main.storyboard in Resources */,
@@ -136,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCEE875621D6572D00CC8A76 /* ViewController.swift in Sources */,
+				CCEC313721D86EEF004F9396 /* UIView+IBSpectable.swift in Sources */,
+				CCEC313C21D87936004F9396 /* LabViewController.swift in Sources */,
 				CCEE875421D6572D00CC8A76 /* AppDelegate.swift in Sources */,
+				CCEE876621D6576900CC8A76 /* RandomBollsManager.swift in Sources */,
+				CCEC313921D8724D004F9396 /* BallCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 99BGKUDWHK;
+				DEVELOPMENT_TEAM = R6A6PP7495;
 				INFOPLIST_FILE = MillionnaireBolls/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 99BGKUDWHK;
+				DEVELOPMENT_TEAM = R6A6PP7495;
 				INFOPLIST_FILE = MillionnaireBolls/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
